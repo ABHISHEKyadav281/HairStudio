@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
+html,body{
+    
+    overflow-x: hidden;
+}
 
 #banner{
     background:linear-gradient(rgba(0, 0, 0,0.5),#009688), url(banner.jpg);
@@ -116,9 +120,9 @@ nav ul li a{
 /* ====================================================== */
 /* ====================================================== */
 #features{
-    /* width: 100%; */
-    width: 80%;
-    padding: 70px;
+    width: 100%;
+    padding: 0 10%;
+    overflow-x: hidden;
 }
 .title-text{
     text-align: center;
@@ -153,7 +157,7 @@ nav ul li a{
 }
 .feature-box{
     width: 80%;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -305,13 +309,13 @@ hr{
 ================================================================= */
 
 #testimonial{
-    width: 80%;
+    width: 100%;
     padding:60px ;
 
 }
 .testimonial-box{
     width: 80%;
-    margin:30px auto;
+    margin:30px 7%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
